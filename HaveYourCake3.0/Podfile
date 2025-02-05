@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '16.0'
+
+target 'HaveYourCake3.0' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HaveYourCake3.0
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Messaging' # For Notifications
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/InAppMessaging' # Optional: For in-app messages
+  pod 'Firebase/RemoteConfig' # Optional: For remote config
+  pod 'GoogleSignIn'
+
+  target 'HaveYourCake3.0Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HaveYourCake3.0UITests' do
+    # Pods for testing
+  end
+end
