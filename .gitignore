@@ -59,6 +59,7 @@ fastlane/test_output
 
 # Other Files That I am choosing to redact temporarily. I may eventually release the views.
 ContactUsView.Swift
-CakeListView.Swift 
+CakeListView.Swift
+Images/ 
 .env
 
