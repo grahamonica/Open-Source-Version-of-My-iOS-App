@@ -18,7 +18,7 @@ The app utilizes **Firebase** for:
 - **User authentication** (Sign in with **Apple, Google, Username**, or continue as a **guest**)
 
 The app utilizes **SendGrid** for:
-- ** Implementing the form on the Contact Us page**
+- **Implementing the form on the Contact Us page**
 
 ## Status  
 
