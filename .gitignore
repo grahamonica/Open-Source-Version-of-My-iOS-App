@@ -19,7 +19,6 @@ playground.xcworkspace
 
 # Swift Package Manager
 #
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 Packages/
 Package.pins
 Package.resolved
@@ -35,20 +34,15 @@ Package.resolved
 #
 Pods/
 #
-# Add this line if you want to avoid checking in source code from the Xcode workspace
 *.xcworkspace
 
 # Carthage
 #
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
 Carthage/Checkouts
 
 Carthage/Build/
 
 # fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
@@ -57,9 +51,10 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-# Other Files That I am choosing to redact temporarily. I may eventually release the views.
+# Other Files That I am choosing to redact temporarily (or permanently). I may eventually release the views.
 ContactUsView.Swift
 CakeListView.Swift
 Images/ 
 .env
+.plist
 
